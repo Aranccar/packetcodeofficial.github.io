@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html manifest="cache.text">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div class="fright">
+		<img src="day.jpeg" id="day" alt="" />
+	</div>
+	<script type="text/javascript">
+		function switchImg(i){
+			document.images["day"].src = i;
+		}
+	</script>
+	<ul id="switchImg">
+		<li><a href="#n" onclick="switchImg('day.jpeg')">Day</a></li>
+		<li><a href="#n" onclick="switchImg('night.jpeg')">Night</a></li>
+	</ul>
+</body>
+</html>
